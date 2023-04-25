@@ -5,15 +5,15 @@ use dotenv::dotenv;
 use std::env;
 use sqlx::mysql::MySqlPoolOptions;
 
-#[path = "../db_access.rs"]
+#[path = "../db_access/mod.rs"]
 mod db_access;
-#[path = "../handlers.rs"]
+#[path = "../handlers/mod.rs"]
 mod handlers;
 #[path = "../routers.rs"]
 mod routers;
 #[path = "../state.rs"]
 mod state;
-#[path = "../models.rs"]
+#[path = "../models/mod.rs"]
 mod models;
 #[path = "../errors.rs"]
 mod errors;

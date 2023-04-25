@@ -15,7 +15,4 @@ serde = { version = "1.0.132", features = ["derive"]}
 chrono = { version = "0.4.19", features = ["serde"]}
 
 [[bin]]
-name = "server1"
-
-[[bin]]
 name = "teacher-service"
